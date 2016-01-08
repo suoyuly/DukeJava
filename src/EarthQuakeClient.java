@@ -1,4 +1,5 @@
 import java.util.*;
+
 import edu.duke.*;
 
 public class EarthQuakeClient
@@ -69,4 +70,11 @@ public class EarthQuakeClient
         dumpCSV(list);
         System.out.println("# quakes read: "+list.size());
     }
+    
+    public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("This is a test for git hub");
+		System.out.println("This is a second test for git hub");
+
+	}
 }

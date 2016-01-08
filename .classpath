@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="C:/Users/Yao-Luo/Downloads/apache-csv.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Yao-Luo/Downloads/courserajava.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vincent/Documents/GitHub/DukeJava/Lib/apache-csv.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vincent/Documents/GitHub/DukeJava/Lib/courserajava.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
