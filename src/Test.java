@@ -3,9 +3,12 @@ public class Test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("This is a test for git hub");
-		System.out.println("This is a second test for git hub");
-
+		//EarthQuakeClient eq1=new EarthQuakeClient();
+		//eq1.createCSV();
+		//eq1.bigQuakes();
+		
+		ClosestQuakes c1= new ClosestQuakes();
+		c1.findClosestQuakes();
 	}
 
 }

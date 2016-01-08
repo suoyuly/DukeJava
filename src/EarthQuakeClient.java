@@ -1,6 +1,5 @@
 import java.util.*;
 
-import edu.duke.*;
 
 public class EarthQuakeClient
 {
@@ -13,7 +12,11 @@ public class EarthQuakeClient
     double magMin) {
         ArrayList<QuakeEntry> answer = new ArrayList<QuakeEntry>();
         // TODO
-
+        for (QuakeEntry qe: quakeData){
+        	if(qe.getMagnitude()>magMin){
+        		answer.add(qe);
+        	}
+        }
         return answer;
     }
 
@@ -44,6 +47,16 @@ public class EarthQuakeClient
         String source = "data/nov20quakedata.atom";
         ArrayList<QuakeEntry> list  = parser.read(source);
         System.out.println("read data for "+list.size()+" quakes");
+        
+/*        for (QuakeEntry qe: list){
+        	if(qe.getMagnitude()>5.0){
+        		System.out.println(qe);
+        	}
+        }*/
+        ArrayList<QuakeEntry> listBig=filterByMagnitude(list, 5.0);
+        for (QuakeEntry qe: listBig){
+        		System.out.println(qe);
+        }
 
     }
 
